@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/bg.jpeg');
+    background-size: cover;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #50a3a2;
+    height: 100px;
+    padding: 5px;
+    color: white;
+}
+header h1 {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; /* This makes the body take up the full viewport height */
+    font-family: 'Open Sans', sans-serif; font-size: 70px};
+
+h2 {
+   text-align: center;
+    font-family: 'Varela Round', sans-serif;}
+
+
+.navbar {
+    background-color: #444444;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(54, 54, 54);
+}
+
+.resume {
+    background-image: url('/img/resume.jpg'); /* Corrected file name */
+    background-size: cover;
+    height: 400px; /* Set a fixed height for the resume section */
+    width: 30%;
+    position: absolute;
+    top: 40%;   
+    left:10%;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+
+}
+
+.game {
+    background-image: url('/img/game.png'); /* Corrected file name */
+    background-size: cover;
+    height: 400px; /* Set a fixed height for the resume section */
+    width: 30%;
+    position: absolute;
+    top: 40%;   
+    left:35%;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+
+}
+.contact {
+    background-image: url('/img/contact.jpg'); /* Corrected file name */
+    background-size: cover;
+    height: 400px; /* Set a fixed height for the resume section */
+    width: 30%;
+    position: absolute;
+    top: 40%;   
+    left:60%;
+    border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+
+}
+
+
+

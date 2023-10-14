@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Game</title>
+    <link rel="stylesheet" type="text/css" href="/Content/game.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="game">Game</a>
+        <a href="contact">Contact</a>
+
+
+    </div> 
+    <script onload="startGame()" src="/Js/game.js"></script>
+
+    <div class="controller" style="text-align:center;width:480px;" >
+        <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
+        <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+        <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+        <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+      </div>
+      </body>
+</html>
